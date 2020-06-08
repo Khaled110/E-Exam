@@ -1,0 +1,606 @@
+{
+  "Levels" : {
+    "level one" : {
+      "Department" : {
+        "a" : {
+          "DeptName" : "a",
+          "Subjects" : {
+            "ko" : {
+              "SubjectName" : "ko",
+              "profName" : "khaled"
+            },
+            "oop" : {
+              "SubjectName" : "oop",
+              "profName" : "ashraf"
+            },
+            "yo" : {
+              "SubjectName" : "yo",
+              "profName" : "momen"
+            }
+          }
+        },
+        "it" : {
+          "DeptName" : "it",
+          "Subjects" : {
+            "security" : {
+              "SubjectName" : "security",
+              "profName" : "momen"
+            }
+          }
+        },
+        "se" : {
+          "DeptName" : "se",
+          "Subjects" : {
+            "devo" : {
+              "SubjectName" : "devo",
+              "profName" : "marawan"
+            }
+          }
+        }
+      },
+      "LevelName" : "level one"
+    },
+    "level three" : {
+      "Department" : {
+        "IS" : {
+          "DeptName" : "IS",
+          "Subjects" : {
+            "Gis" : {
+              "SubjectName" : "Gis",
+              "profName" : "khaled"
+            },
+            "data" : {
+              "SubjectName" : "data",
+              "profName" : "ashraf"
+            },
+            "opa" : {
+              "SubjectName" : "opa",
+              "profName" : "tata"
+            }
+          }
+        }
+      },
+      "LevelName" : "level three"
+    },
+    "level two" : {
+      "Department" : {
+        "cs" : {
+          "DeptName" : "cs",
+          "Subjects" : {
+            "oop" : {
+              "SubjectName" : "oop",
+              "profName" : "khaled"
+            }
+          }
+        },
+        "it" : {
+          "DeptName" : "it",
+          "Subjects" : {
+            "network" : {
+              "SubjectName" : "network",
+              "profName" : "khaled"
+            },
+            "security" : {
+              "SubjectName" : "security",
+              "profName" : "khaled"
+            }
+          }
+        }
+      },
+      "LevelName" : "level two"
+    }
+  },
+  "SubProf" : {
+    "ashraf" : {
+      "Subjects" : {
+        "-M3YXGXy4n0z3UoHhP94" : {
+          "SubName" : "data",
+          "name" : "ashraf"
+        },
+        "-M4-b7QWV5PvGbD1j7Ml" : {
+          "SubName" : "oop",
+          "name" : "ashraf"
+        }
+      },
+      "name" : "ashraf"
+    },
+    "khaled" : {
+      "Subjects" : {
+        "-M3IkRve3UMKQx9IwRRq" : {
+          "SubName" : "Software Development",
+          "name" : "khaled"
+        },
+        "-M3SpKjgg00B-k7bwNez" : {
+          "SubName" : "security",
+          "name" : "khaled"
+        },
+        "-M3Xj5eLvkndGH83lJDC" : {
+          "SubName" : "Gis",
+          "name" : "khaled"
+        },
+        "-M3Xo0_BUsRuGwUgyM-B" : {
+          "SubName" : "network",
+          "name" : "khaled"
+        },
+        "-M3XtpQPfrC6eUxabKlu" : {
+          "SubName" : "haha",
+          "name" : "khaled"
+        },
+        "-M3XvESEvaa_YNWq1is-" : {
+          "SubName" : "security",
+          "name" : "khaled"
+        },
+        "-M3XvKaj1qk1ie-gWuKP" : {
+          "SubName" : "network",
+          "name" : "khaled"
+        },
+        "-M3XvQDCKJkZhysEPdhU" : {
+          "SubName" : "oop",
+          "name" : "khaled"
+        },
+        "-M3Y2aifLFmbcBMDDI8w" : {
+          "SubName" : "ko",
+          "name" : "khaled"
+        }
+      },
+      "name" : "khaled"
+    },
+    "marawan" : {
+      "Subjects" : {
+        "-M3XhjgBVsqqW7uG1F2_" : {
+          "SubName" : "OOP",
+          "name" : "marawan"
+        },
+        "-M3XvpEpnyO7JLaZe9AH" : {
+          "SubName" : "devo",
+          "name" : "marawan"
+        }
+      },
+      "name" : "marawan"
+    },
+    "momen" : {
+      "Subjects" : {
+        "-M3SpIh8-SR1BCAO7CmL" : {
+          "SubName" : "ethica",
+          "name" : "momen"
+        },
+        "-M3Xtj6txhglCW0-z9Vv" : {
+          "SubName" : "programming",
+          "name" : "momen"
+        },
+        "-M3XwrlXdlXd7DypFF7W" : {
+          "SubName" : "security",
+          "name" : "momen"
+        },
+        "-M3XzG4Ox_su8LQidTMW" : {
+          "SubName" : "yo",
+          "name" : "momen"
+        }
+      },
+      "name" : "momen"
+    },
+    "tata" : {
+      "Subjects" : {
+        "-M4-f8ngF7HUULAJVzhl" : {
+          "SubName" : "opa",
+          "name" : "tata"
+        }
+      },
+      "name" : "tata"
+    }
+  },
+  "Subjects" : {
+    "data" : {
+      "ExamStructure" : {
+        "-M8CXKKntFajXNW28ymS" : {
+          "category" : "A",
+          "chapter" : "chapter one",
+          "number" : "3",
+          "type" : "MCQ"
+        },
+        "-M8Qql8XkICgwg4-faPZ" : {
+          "category" : "B",
+          "chapter" : "chapter one",
+          "number" : "2",
+          "type" : "MCQ"
+        },
+        "-M8VnO_Y2UEUPjaANu_V" : {
+          "category" : "A",
+          "chapter" : "chapter one",
+          "number" : "1",
+          "type" : "True"
+        },
+        "-M8X4eN6sqvGRf659LAs" : {
+          "category" : "A",
+          "chapter" : "chapter one",
+          "number" : "1",
+          "type" : "open"
+        }
+      },
+      "Qbank" : {
+        "chapter one" : {
+          "MCQ" : {
+            "are" : {
+              "level" : "A",
+              "mcq" : true,
+              "op1" : "you",
+              "op2" : "doind",
+              "option1" : "you",
+              "option2" : "doind",
+              "option3" : "now",
+              "option4" : "hi",
+              "question" : "are",
+              "trueandFalse" : false,
+              "vedio" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/QuestionVedio%2Ff44912af-1ccb-4aa5-ad39-cba7e86fd57e?alt=media&token=6e5004cc-21f7-47d2-b5ac-a21f429ed1e4"
+            },
+            "did" : {
+              "gallary" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/QuestionImages%2F7301fcf1-c7f0-4812-9a08-34cb9aef5d18?alt=media&token=c8faa2a9-f399-48b7-8079-fcf80289602c",
+              "level" : "A",
+              "mcq" : true,
+              "op1" : "you",
+              "op2" : "see",
+              "option1" : "you",
+              "option2" : "see",
+              "option3" : "me",
+              "option4" : "before",
+              "question" : "did",
+              "trueandFalse" : false
+            },
+            "he?" : {
+              "level" : "B",
+              "mcq" : true,
+              "op1" : "h",
+              "option1" : "issssss",
+              "option2" : "e",
+              "option3" : "heeee",
+              "option4" : "haha",
+              "question" : "he?",
+              "trueandFalse" : false
+            },
+            "hjiu" : {
+              "level" : "B",
+              "mcq" : true,
+              "op1" : "ha",
+              "op2" : "ho",
+              "option1" : "ha",
+              "option2" : "ho",
+              "option3" : "hi",
+              "option4" : "hy",
+              "question" : "hjiu",
+              "trueandFalse" : false
+            },
+            "mohamed" : {
+              "level" : "B",
+              "mcq" : true,
+              "op1" : "mi",
+              "op2" : "ha",
+              "option1" : "mi",
+              "option2" : "ha",
+              "option3" : "me",
+              "option4" : "d",
+              "question" : "mohamed",
+              "trueandFalse" : false
+            },
+            "nana" : {
+              "level" : "A",
+              "mcq" : true,
+              "op1" : "h",
+              "op2" : "j",
+              "op3" : "k",
+              "op4" : "l",
+              "option1" : "h",
+              "option2" : "j",
+              "option3" : "k",
+              "option4" : "l",
+              "question" : "nana",
+              "trueandFalse" : false
+            },
+            "what" : {
+              "level" : "A",
+              "mcq" : true,
+              "op1" : "hello",
+              "op2" : "hi",
+              "option1" : "hello",
+              "option2" : "hi",
+              "option3" : "hola",
+              "option4" : "he",
+              "question" : "what",
+              "trueandFalse" : false
+            },
+            "when" : {
+              "level" : "A",
+              "mcq" : true,
+              "op1" : "hahe",
+              "op2" : "he",
+              "op4" : "hi",
+              "option1" : "hahe",
+              "option2" : "he",
+              "option3" : "ho",
+              "option4" : "hi",
+              "question" : "when",
+              "trueandFalse" : false
+            },
+            "who" : {
+              "gallary" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/QuestionImages%2F6aa14d0b-ec72-4618-8525-cc7dea18943d?alt=media&token=af598fbe-3e00-45e8-8811-a0e6e890bfa2",
+              "level" : "A",
+              "mcq" : true,
+              "op1" : "are",
+              "op2" : "you",
+              "op4" : "ha",
+              "option1" : "are",
+              "option2" : "you",
+              "option3" : "man",
+              "option4" : "ha",
+              "question" : "who",
+              "trueandFalse" : false
+            },
+            "wla" : {
+              "f" : false,
+              "four" : false,
+              "level" : "A",
+              "mcq" : true,
+              "one" : true,
+              "op1" : "haha",
+              "op2" : "hala",
+              "option1" : "haha",
+              "option2" : "hala",
+              "option3" : "hola",
+              "option4" : "tala",
+              "question" : "wla",
+              "t" : false,
+              "three" : false,
+              "trueandFalse" : false,
+              "two" : true
+            }
+          },
+          "True" : {
+            "hello" : {
+              "falseItem" : "False",
+              "level" : "A",
+              "mcq" : false,
+              "op1" : "True",
+              "question" : "hello",
+              "trueItem" : "True",
+              "trueandFalse" : true
+            },
+            "hna" : {
+              "f" : false,
+              "falseItem" : "False",
+              "four" : false,
+              "level" : "A",
+              "mcq" : false,
+              "one" : false,
+              "op1" : "True",
+              "question" : "hna",
+              "t" : true,
+              "three" : false,
+              "trueItem" : "True",
+              "trueandFalse" : true,
+              "two" : false
+            },
+            "when" : {
+              "chapter" : "",
+              "correctAnswer" : "",
+              "degreeOpenQuestion" : "",
+              "falseItem" : "False",
+              "level" : "",
+              "mcq" : false,
+              "op1" : "2",
+              "openQuestion" : "",
+              "option4" : "",
+              "question" : "when",
+              "trueItem" : "True",
+              "trueandFalse" : true,
+              "vedio" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/QuestionVedio%2F2e38f023-e5b0-4098-a72e-41fd8356bca6?alt=media&token=2700e3ab-4694-4f6d-8c14-9d8534347ae3"
+            },
+            "wherre" : {
+              "chapter" : "",
+              "correctAnswer" : "",
+              "degreeOpenQuestion" : "",
+              "falseItem" : "False",
+              "gallary" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/QuestionImages%2F56e89b69-ebab-4b99-8948-b1daab933283?alt=media&token=124d20bc-787e-4f4e-89ec-4b111ad9a7ee",
+              "level" : "",
+              "mcq" : false,
+              "op1" : "2",
+              "openQuestion" : "",
+              "option4" : "",
+              "question" : "wherre",
+              "trueItem" : "True",
+              "trueandFalse" : true
+            },
+            "who" : {
+              "chapter" : "",
+              "correctAnswer" : "",
+              "degreeOpenQuestion" : "",
+              "falseItem" : "False",
+              "gallary" : "",
+              "level" : "",
+              "mcq" : false,
+              "op1" : "2",
+              "openQuestion" : "",
+              "option4" : "",
+              "question" : "who",
+              "trueItem" : "True",
+              "trueandFalse" : true
+            }
+          },
+          "open" : {
+            "what?" : {
+              "degreeOpenQuestion" : "3",
+              "f" : false,
+              "four" : false,
+              "level" : "A",
+              "mcq" : false,
+              "one" : false,
+              "openQuestion" : "what?",
+              "t" : false,
+              "three" : false,
+              "trueandFalse" : false,
+              "two" : false
+            },
+            "which" : {
+              "degreeOpenQuestion" : "3",
+              "f" : false,
+              "four" : false,
+              "level" : "A",
+              "mcq" : false,
+              "one" : false,
+              "openQuestion" : "which",
+              "t" : false,
+              "three" : false,
+              "trueandFalse" : false,
+              "two" : false
+            }
+          }
+        }
+      },
+      "Tutorial" : {
+        "chapter one" : {
+          "chapterName" : "chapter one",
+          "uploads" : {
+            "-M7XuHJRQgVKTsRzfd08" : {
+              "name" : "masr",
+              "url" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/uploads%2F1589723587485.pdf?alt=media&token=938fc52b-79b0-405e-816f-934d23c591bb"
+            }
+          }
+        }
+      }
+    }
+  },
+  "open" : {
+    "data" : {
+      "which" : {
+        "ahmed" : {
+          "answer" : "Esraa",
+          "degree" : "3",
+          "question" : "which"
+        }
+      }
+    }
+  },
+  "openQ" : {
+    "data" : {
+      "which" : {
+        "openQuestion" : "which"
+      }
+    }
+  },
+  "result" : {
+    "ahmed" : {
+      "Subjects" : {
+        "data" : {
+          "degree" : 7,
+          "subjectName" : "data"
+        },
+        "subjectName" : "data"
+      }
+    },
+    "tata" : {
+      "Subjects" : {
+        "data" : {
+          "degree" : 0,
+          "subjectName" : "data"
+        },
+        "subjectName" : "data"
+      }
+    }
+  },
+  "uploadsInfo" : {
+    "-M3WfNWeGd-C_dRj0Flq" : {
+      "name" : "chapter one",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/uploadsInfo%2F1585407945045.pdf?alt=media&token=ce5027d3-b10e-4de3-a12d-ae564cfb51f2"
+    },
+    "-M8zZBtbglD_qD9AwhIg" : {
+      "name" : "Esraa",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/onlineexam-219c6.appspot.com/o/uploadsInfo%2F1591277862506.pdf?alt=media&token=fbe02751-f2aa-41b5-80dd-41420e9f7565"
+    }
+  },
+  "users" : {
+    "Admin" : {
+      "1" : {
+        "code" : "1",
+        "email" : "marawan@yahoo.com",
+        "name" : "marawan",
+        "password" : "123456",
+        "type" : "Admin"
+      },
+      "111" : {
+        "code" : "111",
+        "email" : "tata@yahoo.com",
+        "name" : "tata",
+        "password" : "123456",
+        "type" : "Admin"
+      },
+      "123" : {
+        "code" : "123",
+        "email" : "osama@yahoo.com",
+        "name" : "ashraf",
+        "password" : "123456",
+        "type" : "Admin"
+      }
+    },
+    "Professor" : {
+      "1" : {
+        "code" : "1",
+        "email" : "khaled@yahoo.com",
+        "name" : "khaled",
+        "password" : "123456",
+        "type" : "Professor"
+      },
+      "123" : {
+        "code" : "123",
+        "email" : "momen@yahoo.com",
+        "name" : "momen",
+        "password" : "123456",
+        "type" : "Professor"
+      }
+    },
+    "Student" : {
+      "1" : {
+        "code" : "1",
+        "department" : "a",
+        "email" : "bebo@yahoo.co",
+        "level" : "level one",
+        "name" : "bebo",
+        "password" : "123456",
+        "type" : "Student"
+      },
+      "3" : {
+        "code" : "3",
+        "department" : "IS",
+        "email" : "wow@yahoo.com",
+        "level" : "level three",
+        "name" : "wiwa",
+        "password" : "12e456",
+        "type" : "Student"
+      },
+      "5" : {
+        "code" : "5",
+        "department" : "IS",
+        "email" : "totia@yahoo.com",
+        "level" : "level three",
+        "name" : "tata",
+        "password" : "123456",
+        "type" : "Student"
+      },
+      "6" : {
+        "code" : "6",
+        "department" : "IS",
+        "email" : "ahm@yahoo.com",
+        "level" : "level three",
+        "name" : "ahmed",
+        "password" : "123456",
+        "type" : "Student"
+      },
+      "123" : {
+        "code" : "123",
+        "department" : "cs",
+        "email" : "klaba@yahoo.com",
+        "level" : "level three",
+        "name" : "klaba",
+        "password" : "123456",
+        "type" : "Student"
+      }
+    }
+  }
+}
