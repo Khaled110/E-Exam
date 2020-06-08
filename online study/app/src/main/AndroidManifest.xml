@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinestudy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StudentResult"></activity>
+        <activity android:name=".StudentTrainingExam" />
+        <activity android:name=".StudentAdditionalInfo" />
+        <activity android:name=".StudentQuestionBank" />
+        <activity android:name=".StudentTutorial" />
+        <activity android:name=".StudentStartExam" />
+        <activity android:name=".FinalResult" />
+        <activity android:name=".Rank" />
+        <activity android:name=".AboutSubject" />
+        <activity android:name=".ProfessorResult" />
+        <activity android:name=".ProfessorEvaluateQuestion" />
+        <activity android:name=".ProfessorAdditionalInfo" />
+        <activity android:name=".ProfessorQuestionBank" />
+        <activity android:name=".PreofessorTutorial" />
+        <activity android:name=".ProfessorExamStructure" />
+        <activity android:name=".ProfessorListSubject" />
+        <activity android:name=".SubjectOfDepartment" />
+        <activity android:name=".DepartmentOfLevel" />
+        <activity android:name=".AsProfessor" />
+        <activity android:name=".ProfessorList" />
+        <activity android:name=".LevelOfFaculty" />
+        <activity android:name=".MainStudentPage" />
+        <activity android:name=".MainAdminPage" />
+        <activity android:name=".MainProfessorPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

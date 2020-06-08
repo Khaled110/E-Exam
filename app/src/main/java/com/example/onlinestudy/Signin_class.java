@@ -1,0 +1,33 @@
+package com.example.onlinestudy;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+public class Signin_class extends Fragment {
+    private EditText signInEmail,signInPassword;
+    private Button signIn;
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+       View view=inflater.inflate(R.layout.signin,container,false);
+       signInEmail=view.findViewById(R.id.signin_email);
+        signInPassword=view.findViewById(R.id.signin_password);
+        signIn=view.findViewById(R.id.sginin);
+        signIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        return view;
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/subject_col"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Gouda"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/degree_col"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Gouda"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/estimate_col"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Gouda"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
