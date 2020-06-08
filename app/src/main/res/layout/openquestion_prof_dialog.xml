@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    >
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_chapter_q_open"
+            android:layout_marginLeft="100dp"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:buttonTint="@color/colorAccent"
+
+            ></Spinner>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_category_q_open"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/spinner_chapter_q_open"
+            ></Spinner>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter open question"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:backgroundTint="@color/colorAccent"
+        android:buttonTint="@color/colorAccent"
+
+        android:textStyle="bold"
+        android:id="@+id/edit_open_question"
+        ></EditText>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/pdf_attach"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/img_open_question">
+    </ImageView>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:hint="question degree"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txt_open_question_dgree"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/open_question_dgree"
+            android:layout_width="0dp"
+            android:layout_height="17dp"
+            android:layout_alignBaseline="@id/txt_open_question_dgree"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/txt_open_question_dgree"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/top"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/top"></ImageView>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/down"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/top"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/down"
+            ></ImageView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

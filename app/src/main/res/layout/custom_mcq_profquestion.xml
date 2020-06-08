@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_question"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="question"
+            android:layout_margin="10dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/remove"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:id="@+id/img_remove_quetion"
+            ></ImageView>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/edit"
+            android:layout_below="@id/img_remove_quetion"
+            android:id="@+id/img_edit_quetion"
+            android:layout_alignParentRight="true"
+            ></ImageView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/add"
+            android:layout_gravity="center"
+            android:id="@+id/image_question"
+            android:visibility="gone"
+            ></ImageView>
+        <VideoView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:id="@+id/vedio_question"
+            android:visibility="gone"
+            ></VideoView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/liner_mcq"
+            android:visibility="gone"
+            >
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:thumbTint="@color/colorPrimaryDark"
+                android:progressTint="@color/colorPrimary"
+                android:id="@+id/seek_mcq"
+                android:layout_margin="20dp"
+                android:progressBackgroundTint="@color/colorPrimary"
+                ></SeekBar>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Audio"
+                android:layout_gravity="center"
+
+                android:layout_marginBottom="15dp"
+                android:id="@+id/audio"
+                ></Button>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/colorAccent"
+        android:text="0"
+        android:layout_margin="10dp"
+        android:id="@+id/count1"
+        android:visibility="gone"
+        ></TextView>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option 1"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:backgroundTint="@color/colorAccent"
+        android:buttonTint="@color/colorAccent"
+
+        android:id="@+id/ch_option1"
+
+        ></CheckBox>
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="14dp"
+          android:text="0"
+          android:layout_margin="10dp"
+          android:id="@+id/count2"
+          android:visibility="gone"
+          ></TextView>
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="option 2"
+          android:textStyle="bold"
+          android:textColor="@color/colorAccent"
+          android:textColorHint="@color/colorAccent"
+          android:backgroundTint="@color/colorAccent"
+          android:buttonTint="@color/colorAccent"
+
+          android:layout_margin="10dp"
+          android:id="@+id/ch_option2"
+          ></CheckBox>
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="0"
+            android:layout_margin="10dp"
+            android:id="@+id/count3"
+            android:visibility="gone"
+            ></TextView>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option 3"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:buttonTint="@color/colorAccent"
+
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:id="@+id/ch_option3"
+
+            ></CheckBox>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="0"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:id="@+id/count4"
+            ></TextView>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option 4"
+            android:textStyle="bold"
+            android:buttonTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+
+            android:layout_margin="10dp"
+            android:id="@+id/ch_option4"
+            ></CheckBox>
+    </LinearLayout>
+</LinearLayout>

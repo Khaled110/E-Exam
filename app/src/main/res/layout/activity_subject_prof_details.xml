@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundC"
+    android:orientation="vertical"
+    tools:context=".MainAdminActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="name"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txt_subject_name"
+        ></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/custom_button"
+                android:text="Exam Structure"
+                android:id="@+id/sub_prof_structure"
+                ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp"
+                android:text="Tutorial"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/custom_button"
+                android:id="@+id/sub_prof_tutorial"
+                ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorAccent"
+                android:text="Question Bank"
+                android:background="@drawable/custom_button"
+                android:id="@+id/sub_prof_bank"
+                ></Button>
+
+            <Button
+                android:id="@+id/sub_prof_additional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/custom_button"
+                android:text="Additional Info"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorAccent"
+                android:text="Evaluate Questions"
+                android:background="@drawable/custom_button"
+                android:id="@+id/sub_prof_evaluate_questions"
+                ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorAccent"
+                android:text="Student Result"
+                android:visibility="gone"
+                android:background="@drawable/custom_button"
+                android:id="@+id/sub_prof_student_result"
+                ></Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

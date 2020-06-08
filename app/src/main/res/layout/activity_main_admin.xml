@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundC"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainAdminActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/custom_button"
+        android:text="Levels and Departments"
+        android:id="@+id/levels_admin"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60dp"
+        android:text="Professor List"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/custom_button"
+        android:id="@+id/professor_list_admin"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60dp"
+        android:text="As Professor"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/custom_button"
+        android:id="@+id/as_professor_admin"
+        ></Button>
+
+
+</LinearLayout>

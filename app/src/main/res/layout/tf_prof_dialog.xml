@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        >
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_chapter_q_tf"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+
+            android:visibility="gone"
+            ></Spinner>
+        <Spinner
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_category_q_tf"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/spinner_chapter_q_tf"
+            ></Spinner>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter question"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+
+            android:layout_marginTop="20dp"
+            android:id="@+id/edit_tf_q_prof"
+            ></EditText>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pdf_attach"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/img_tf_q_prof">
+        </ImageView>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:backgroundTint="@color/colorAccent"
+
+        android:textStyle="bold"
+        android:text="Correct answer">
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_prof"
+        android:orientation="horizontal"
+        android:id="@+id/radio_tf_prof"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="True"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:buttonTint="@color/colorAccent"
+            android:textSize="20dp"
+            android:id="@+id/radio_true_prof">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio_false_prof"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:buttonTint="@color/colorAccent"
+            android:text="False"
+            android:textSize="20dp"></RadioButton>
+    </RadioGroup>
+
+</LinearLayout>

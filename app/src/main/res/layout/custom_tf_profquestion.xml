@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/liner"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_question_tf"
+            android:textSize="20dp"
+            android:text="question"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="10dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/remove"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:id="@+id/img_remove_quetion_tf"
+            ></ImageView>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/edit"
+            android:layout_below="@id/img_remove_quetion_tf"
+            android:id="@+id/img_edit_quetion_tf"
+            android:layout_alignParentRight="true"
+            ></ImageView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner"
+        android:id="@+id/fram"
+        >
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/add"
+            android:layout_gravity="center"
+            android:id="@+id/image_question_tf"
+            android:visibility="gone"
+            ></ImageView>
+        <VideoView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:id="@+id/vedio_question_tf"
+            android:visibility="gone"
+            ></VideoView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Audio"
+            android:layout_gravity="center"
+            android:id="@+id/audio_tf"
+            android:visibility="gone"
+            ></Button>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/seek_tf"
+            android:thumbTint="@color/colorPrimaryDark"
+            android:progressTint="@color/colorPrimary"
+            android:progressBackgroundTint="@color/colorPrimary"
+            android:visibility="gone"></SeekBar>
+    </FrameLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fram"
+        android:orientation="horizontal"
+        android:id="@+id/radio_tf_prof_q_g"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="True"
+
+            android:buttonTint="@color/colorAccent"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+
+            android:id="@+id/radio_true_prof_q">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio_false_prof_q"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+
+            android:buttonTint="@color/colorAccent"
+            android:text="False"
+            android:textSize="20dp"></RadioButton>
+    </RadioGroup>
+
+</RelativeLayout>

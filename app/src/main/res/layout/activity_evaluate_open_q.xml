@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EvaluateOpenQActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/evaluate_questionName"
+        android:textSize="15dp"
+        android:text="Question"
+        android:layout_margin="10dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/evaluate_answer"
+        android:textSize="15dp"
+        android:text="answer"
+        android:layout_margin="10dp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:id="@+id/evaluate_degree"
+            android:textSize="15dp"
+            android:text="degree"
+            android:layout_margin="10dp"
+            ></TextView>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:src="@drawable/top"
+            android:layout_height="25dp"
+            android:id="@+id/evaluate_top"
+            ></ImageView>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:src="@drawable/down"
+            android:layout_height="25dp"
+            android:id="@+id/evaluate_down"
+            ></ImageView>
+    </LinearLayout>
+
+
+</LinearLayout>

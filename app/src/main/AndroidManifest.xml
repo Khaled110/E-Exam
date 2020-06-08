@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlineexam">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="E-Exam"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResultStudentActivity"></activity>
+        <activity android:name=".StudentInfoActivity"></activity>
+        <activity android:name=".StudentTutorialActivity" />
+        <activity android:name=".ExamStructureActivity" />
+        <activity android:name=".EvaluateAnswerActivity" />
+        <activity android:name=".EvaluateQListActivity" />
+        <activity android:name=".EvaluateOpenQActivity" />
+        <activity android:name=".QuestionBankChapterActivity" />
+        <activity
+            android:name=".QuestionBankProfActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".AdminListSubActivity" />
+        <activity android:name=".MainAdminProfListActivity" />
+        <activity android:name=".ProfInfoActivity" />
+        <activity android:name=".ProfChapterPDFActivity" />
+        <activity android:name=".ToturialChaptersActivity" />
+        <activity android:name=".SubjectProfDetailsActivity" />
+        <activity android:name=".MainAdminAddSubActivity" />
+        <activity
+            android:name=".UpdataLevelActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" />
+        <activity android:name=".MainAdminDepartActivity" />
+        <activity android:name=".MainAdminLevelsActivity" />
+        <activity android:name=".MainProfActivity" />
+        <activity android:name=".MainAdminActivity" />
+        <activity android:name=".SubjectAdmin" />
+        <activity android:name=".AboutSubject" />
+        <activity android:name=".MainStudentPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

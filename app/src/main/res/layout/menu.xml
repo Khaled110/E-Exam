@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:id="@+id/tool">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_count"
+        android:text="00:00"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="DONE"
+
+        android:id="@+id/done"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="200dp"
+        ></Button>
+
+</androidx.appcompat.widget.Toolbar>

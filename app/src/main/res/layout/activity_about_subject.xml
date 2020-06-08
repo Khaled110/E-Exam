@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundC"
+    android:layout_height="match_parent"
+    tools:context=".AboutSubject">
+    <TextView
+        android:id="@+id/sub_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="subject"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/student_start_exam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"></TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/student_start_exam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Start Exam"
+
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/student_tutorial"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/student_exam_structure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Exam Structure"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/student_tutorial"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:layout_gravity="center"
+
+                android:id="@+id/student_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Tutorial"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/student_question_bank"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:layout_gravity="center"
+
+                android:id="@+id/student_question_bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Question Bank"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/student_additonal_info"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/student_additonal_info"
+
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Additional Info"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/student_training_exam"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/tranning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Tranning Exam"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/student_tutorial"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/student_result_t"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Result"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/student_result"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
